@@ -97,7 +97,7 @@ export default function LotteryEntrance() {
                         {isLoading || isFetching ? (
                             <div className="animate-spin spinner-boder h-8 w-8 border-b-2 rounded-full"></div>
                         ) : (
-                            <div>Enter Raffle</div>
+                            <div>Enter RAFFLE</div>
                         )}
                     </button>
                     <div>entrance fee : {ethers.utils.formatUnits(entranceFee, "ether")}</div>
